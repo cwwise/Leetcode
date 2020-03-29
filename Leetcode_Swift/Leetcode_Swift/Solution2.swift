@@ -63,9 +63,6 @@ class Solution2 {
     func test() {
         let head1 = createNode([1, 8])
         let head2 = createNode([0])
-        printNode(head1)
-        printNode(head2)
-
         printNode(addTwoNumbers(head1, head2))
     }
 }

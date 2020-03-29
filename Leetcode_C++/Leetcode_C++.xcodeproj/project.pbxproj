@@ -30,6 +30,8 @@
 		1FC07C7E2428AF0C009D7D94 /* Solution2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution2.hpp; sourceTree = "<group>"; };
 		1FC07C812428D7B0009D7D94 /* Solution200.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution200.hpp; sourceTree = "<group>"; };
 		1FC07C8A242AEE89009D7D94 /* Solution17.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution17.hpp; sourceTree = "<group>"; };
+		1FC07C932430784F009D7D94 /* Solution674.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution674.hpp; sourceTree = "<group>"; };
+		1FC07C9824307D80009D7D94 /* Solution70.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution70.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,8 @@
 				1FC07C8A242AEE89009D7D94 /* Solution17.hpp */,
 				1FC07C812428D7B0009D7D94 /* Solution200.hpp */,
 				1FC07C5B24288E30009D7D94 /* Solution867.hpp */,
+				1FC07C932430784F009D7D94 /* Solution674.hpp */,
+				1FC07C9824307D80009D7D94 /* Solution70.hpp */,
 			);
 			path = "Leetcode_C++";
 			sourceTree = "<group>";
