@@ -8,10 +8,14 @@
 
 #include <iostream>
 #include "Leetcode_C.h"
+
+#include "Solution2.hpp"
+#include "Solution17.hpp"
+#include "Solution200.hpp"
 #include "Solution867.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    Solution867().test();
+    Solution2().test();
     return 0;
 }

@@ -10,6 +10,7 @@
 		1FC07C6A2428A32B009D7D94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C692428A32B009D7D94 /* main.swift */; };
 		1FC07C782428A3A9009D7D94 /* NodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C772428A3A9009D7D94 /* NodeHelper.swift */; };
 		1FC07C7A2428A3D2009D7D94 /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C792428A3D2009D7D94 /* Solution876.swift */; };
+		1FC07C7C2428AAA8009D7D94 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C7B2428AAA8009D7D94 /* Solution2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		1FC07C692428A32B009D7D94 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FC07C772428A3A9009D7D94 /* NodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeHelper.swift; sourceTree = "<group>"; };
 		1FC07C792428A3D2009D7D94 /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
+		1FC07C7B2428AAA8009D7D94 /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				1FC07C692428A32B009D7D94 /* main.swift */,
-				1FC07C792428A3D2009D7D94 /* Solution876.swift */,
 				1FC07C772428A3A9009D7D94 /* NodeHelper.swift */,
+				1FC07C7B2428AAA8009D7D94 /* Solution2.swift */,
+				1FC07C792428A3D2009D7D94 /* Solution876.swift */,
 			);
 			path = Leetcode_Swift;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC07C7A2428A3D2009D7D94 /* Solution876.swift in Sources */,
+				1FC07C7C2428AAA8009D7D94 /* Solution2.swift in Sources */,
 				1FC07C6A2428A32B009D7D94 /* main.swift in Sources */,
 				1FC07C782428A3A9009D7D94 /* NodeHelper.swift in Sources */,
 			);

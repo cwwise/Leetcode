@@ -19,18 +19,13 @@ public class ListNode {
 }
 
 func createNode(_ list: [Int]) -> ListNode? {
-    var head: ListNode?
-    var cur: ListNode?
+    let head: ListNode = ListNode(0)
+    var cur: ListNode = head
     for i in list {
-        let p = ListNode(i)
-        if head == nil {
-            head = p
-        } else {
-            cur?.next = p
-        }
-        cur = p
+        cur.next = ListNode(i)
+        cur = cur.next!
     }
-    return head
+    return head.next
 }
 
 func printNode(_ head: ListNode?) {

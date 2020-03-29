@@ -9,6 +9,7 @@
 #ifndef Leetcode_C_h
 #define Leetcode_C_h
 
+#include <queue>
 #include <vector>
 using namespace std;
 
@@ -40,18 +41,14 @@ void printNodeList(string name, ListNode *head) {
 }
 
 ListNode *createNode(vector<int> arr) {
-    ListNode *head = NULL;
-    ListNode *cur = NULL;
+    ListNode *head = new ListNode(0);
+    ListNode *cur = head;
     for (int i = 0; i < arr.size(); i ++) {
         ListNode *p = new ListNode(arr[i]);
-        if (head == NULL) {
-            head = p;
-        } else {
-            cur->next = p;
-        }
+        cur->next = p;
         cur = p;
     }
-    return head;
+    return head->next;
 }
 
 }

@@ -8,7 +8,4 @@
 
 import Foundation
 
-
-let head = createNode([1, 2, 3])
-printNode(head)
-
+Solution2().test()
