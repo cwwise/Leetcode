@@ -27,6 +27,7 @@
 		1F1052F12431EBC50016A05F /* Solution141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution141.hpp; sourceTree = "<group>"; };
 		1F1052F32431ECA70016A05F /* Solution142.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution142.hpp; sourceTree = "<group>"; };
 		1F1052F52431F8300016A05F /* Solution24.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution24.hpp; sourceTree = "<group>"; };
+		1F1052F824323EE50016A05F /* Solution62.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution62.hpp; sourceTree = "<group>"; };
 		1FC07C4F24288DAC009D7D94 /* Leetcode_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC07C5224288DAC009D7D94 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FC07C5924288DC0009D7D94 /* Leetcode_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leetcode_C.h; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				1FC07C7E2428AF0C009D7D94 /* Solution2.hpp */,
 				1FC07C8A242AEE89009D7D94 /* Solution17.hpp */,
 				1F1052F52431F8300016A05F /* Solution24.hpp */,
+				1F1052F824323EE50016A05F /* Solution62.hpp */,
 				1FC07C9824307D80009D7D94 /* Solution70.hpp */,
 				1F1052F12431EBC50016A05F /* Solution141.hpp */,
 				1F1052F32431ECA70016A05F /* Solution142.hpp */,
@@ -261,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -269,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

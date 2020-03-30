@@ -12,6 +12,7 @@
 #include "Solution2.hpp"
 #include "Solution17.hpp"
 #include "Solution24.hpp"
+#include "Solution62.hpp"
 #include "Solution70.hpp"
 #include "Solution141.hpp"
 #include "Solution142.hpp"
@@ -25,8 +26,6 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    Solution2().test();
 //    Solution674().test();
-    Solution24().test();
-    Solution141().test();
-    Solution142().test();
+    Solution200().test();
     return 0;
 }
