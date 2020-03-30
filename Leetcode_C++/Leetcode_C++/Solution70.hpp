@@ -22,10 +22,8 @@
 class Solution70 {
 public:
     int climbStairs(int n) {
-        
+        return 1;
     }
-    
-    
 };
 
 #endif /* Solution70_hpp */

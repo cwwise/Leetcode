@@ -9,4 +9,4 @@
 import Foundation
 
 Solution2().test()
-Solution509().test()
+Solution121().test()

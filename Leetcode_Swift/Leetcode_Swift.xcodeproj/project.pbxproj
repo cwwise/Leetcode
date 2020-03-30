@@ -14,6 +14,7 @@
 		1FC07C9624307BAB009D7D94 /* Solution674.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C9524307BAB009D7D94 /* Solution674.swift */; };
 		1FC07C9B24307DBD009D7D94 /* Solution70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C9A24307DBD009D7D94 /* Solution70.swift */; };
 		1FC07C9D24308178009D7D94 /* Solution509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C9C24308178009D7D94 /* Solution509.swift */; };
+		1FC07C9F2430889B009D7D94 /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C9E2430889B009D7D94 /* Solution121.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		1FC07C9524307BAB009D7D94 /* Solution674.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution674.swift; sourceTree = "<group>"; };
 		1FC07C9A24307DBD009D7D94 /* Solution70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution70.swift; sourceTree = "<group>"; };
 		1FC07C9C24308178009D7D94 /* Solution509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution509.swift; sourceTree = "<group>"; };
+		1FC07C9E2430889B009D7D94 /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +74,11 @@
 				1FC07C692428A32B009D7D94 /* main.swift */,
 				1FC07C772428A3A9009D7D94 /* NodeHelper.swift */,
 				1FC07C7B2428AAA8009D7D94 /* Solution2.swift */,
-				1FC07C792428A3D2009D7D94 /* Solution876.swift */,
-				1FC07C9524307BAB009D7D94 /* Solution674.swift */,
 				1FC07C9A24307DBD009D7D94 /* Solution70.swift */,
 				1FC07C9C24308178009D7D94 /* Solution509.swift */,
+				1FC07C9524307BAB009D7D94 /* Solution674.swift */,
+				1FC07C792428A3D2009D7D94 /* Solution876.swift */,
+				1FC07C9E2430889B009D7D94 /* Solution121.swift */,
 			);
 			path = Leetcode_Swift;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				1FC07C7C2428AAA8009D7D94 /* Solution2.swift in Sources */,
 				1FC07C9D24308178009D7D94 /* Solution509.swift in Sources */,
 				1FC07C9B24307DBD009D7D94 /* Solution70.swift in Sources */,
+				1FC07C9F2430889B009D7D94 /* Solution121.swift in Sources */,
 				1FC07C6A2428A32B009D7D94 /* main.swift in Sources */,
 				1FC07C782428A3A9009D7D94 /* NodeHelper.swift in Sources */,
 			);
