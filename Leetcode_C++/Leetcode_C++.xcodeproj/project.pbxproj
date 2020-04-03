@@ -28,6 +28,14 @@
 		1F1052F32431ECA70016A05F /* Solution142.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution142.hpp; sourceTree = "<group>"; };
 		1F1052F52431F8300016A05F /* Solution24.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution24.hpp; sourceTree = "<group>"; };
 		1F1052F824323EE50016A05F /* Solution62.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution62.hpp; sourceTree = "<group>"; };
+		1F1052FB243301820016A05F /* Solution494.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution494.hpp; sourceTree = "<group>"; };
+		1F1052FE243333570016A05F /* Solution21.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution21.hpp; sourceTree = "<group>"; };
+		1F105301243368970016A05F /* Solution203.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution203.hpp; sourceTree = "<group>"; };
+		1F105304243369E10016A05F /* Solution328.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution328.hpp; sourceTree = "<group>"; };
+		1F1053072433700D0016A05F /* Solution912.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution912.hpp; sourceTree = "<group>"; };
+		1F10530D2436082C0016A05F /* Solution289.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution289.hpp; sourceTree = "<group>"; };
+		1F10531024362D0A0016A05F /* Solution866.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution866.hpp; sourceTree = "<group>"; };
+		1F10531324362FD50016A05F /* Solution9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution9.hpp; sourceTree = "<group>"; };
 		1FC07C4F24288DAC009D7D94 /* Leetcode_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC07C5224288DAC009D7D94 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FC07C5924288DC0009D7D94 /* Leetcode_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leetcode_C.h; sourceTree = "<group>"; };
@@ -73,15 +81,23 @@
 				1FC07C5224288DAC009D7D94 /* main.cpp */,
 				1F1052B62430D6730016A05F /* MyQueue.hpp */,
 				1FC07C7E2428AF0C009D7D94 /* Solution2.hpp */,
+				1F10531324362FD50016A05F /* Solution9.hpp */,
 				1FC07C8A242AEE89009D7D94 /* Solution17.hpp */,
+				1F1052FE243333570016A05F /* Solution21.hpp */,
 				1F1052F52431F8300016A05F /* Solution24.hpp */,
 				1F1052F824323EE50016A05F /* Solution62.hpp */,
 				1FC07C9824307D80009D7D94 /* Solution70.hpp */,
 				1F1052F12431EBC50016A05F /* Solution141.hpp */,
 				1F1052F32431ECA70016A05F /* Solution142.hpp */,
 				1FC07C812428D7B0009D7D94 /* Solution200.hpp */,
+				1F105301243368970016A05F /* Solution203.hpp */,
+				1F10530D2436082C0016A05F /* Solution289.hpp */,
+				1F105304243369E10016A05F /* Solution328.hpp */,
+				1F1052FB243301820016A05F /* Solution494.hpp */,
 				1FC07C932430784F009D7D94 /* Solution674.hpp */,
+				1F10531024362D0A0016A05F /* Solution866.hpp */,
 				1FC07C5B24288E30009D7D94 /* Solution867.hpp */,
+				1F1053072433700D0016A05F /* Solution912.hpp */,
 			);
 			path = "Leetcode_C++";
 			sourceTree = "<group>";
