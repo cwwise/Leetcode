@@ -10,10 +10,13 @@
 #include "Leetcode_C.h"
 
 #include "Solution2.hpp"
+#include "Solution8.hpp"
 #include "Solution9.hpp"
 #include "Solution17.hpp"
 #include "Solution21.hpp"
 #include "Solution24.hpp"
+#include "Solution46.hpp"
+#include "Solution61.hpp"
 #include "Solution62.hpp"
 #include "Solution70.hpp"
 #include "Solution141.hpp"
@@ -35,7 +38,12 @@ int main(int argc, const char * argv[]) {
 //    Solution2().test();
 //    Solution674().test();
     
-    Solution9().test();
-    Solution866().test();
+    Solution46().test();
+    
+    
+    vector<int> a = {1, 2, 3, 4, 5};
+    vector<int> b = vector<int>(&a);
+    b.push_back(1);
+    
     return 0;
 }
