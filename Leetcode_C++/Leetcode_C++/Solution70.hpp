@@ -22,7 +22,22 @@
 class Solution70 {
 public:
     int climbStairs(int n) {
-        return 1;
+        if (n <= 2) {
+            return n;
+        }
+        vector<int>dp(n,0);
+        dp[0] = 1;
+        dp[1] = 2;
+        for(int i = 2; i < n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n-1];
+    }
+    
+    void test() {
+        for (int i = 1; i < 10; i ++) {
+            cout << climbStairs(i) << endl;
+        }
     }
 };
 

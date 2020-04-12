@@ -39,6 +39,12 @@
 		1F1053162436E7610016A05F /* Solution8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution8.hpp; sourceTree = "<group>"; };
 		1F1053192436F7450016A05F /* Solution61.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution61.hpp; sourceTree = "<group>"; };
 		1F10531C243710460016A05F /* Solution46.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution46.hpp; sourceTree = "<group>"; };
+		1F5A8F052442A89B00F92ACE /* Solution188.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution188.hpp; sourceTree = "<group>"; };
+		1FA4F8FB2442004800141E44 /* Solution120.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution120.hpp; sourceTree = "<group>"; };
+		1FA4F8FE244204C000141E44 /* Solution152.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution152.hpp; sourceTree = "<group>"; };
+		1FA4F9012442100200141E44 /* Solution121.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution121.hpp; sourceTree = "<group>"; };
+		1FA4F9042442189100141E44 /* Solution122.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution122.hpp; sourceTree = "<group>"; };
+		1FA4F9072442A27100141E44 /* Solution123.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution123.hpp; sourceTree = "<group>"; };
 		1FC07C4F24288DAC009D7D94 /* Leetcode_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leetcode_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC07C5224288DAC009D7D94 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FC07C5924288DC0009D7D94 /* Leetcode_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leetcode_C.h; sourceTree = "<group>"; };
@@ -93,8 +99,14 @@
 				1F1053192436F7450016A05F /* Solution61.hpp */,
 				1F1052F824323EE50016A05F /* Solution62.hpp */,
 				1FC07C9824307D80009D7D94 /* Solution70.hpp */,
+				1FA4F8FB2442004800141E44 /* Solution120.hpp */,
+				1FA4F9012442100200141E44 /* Solution121.hpp */,
+				1FA4F9042442189100141E44 /* Solution122.hpp */,
+				1FA4F9072442A27100141E44 /* Solution123.hpp */,
 				1F1052F12431EBC50016A05F /* Solution141.hpp */,
 				1F1052F32431ECA70016A05F /* Solution142.hpp */,
+				1FA4F8FE244204C000141E44 /* Solution152.hpp */,
+				1F5A8F052442A89B00F92ACE /* Solution188.hpp */,
 				1FC07C812428D7B0009D7D94 /* Solution200.hpp */,
 				1F105301243368970016A05F /* Solution203.hpp */,
 				1F10530D2436082C0016A05F /* Solution289.hpp */,
