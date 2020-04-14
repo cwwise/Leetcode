@@ -35,26 +35,32 @@
 class Solution46 {
 public:
     vector<vector<int>> result;
-
     vector<vector<int>> permute(vector<int>& nums) {
-        
-        
+        vector<int> track;
+        backtrack(nums, track);
         return result;
     }
     
     void backtrack(vector<int> nums, vector<int>& track) {
-        
         if (track.size() == nums.size()) {
-            vector<int> temp(track);
+            vector<int> temp = track;
             result.push_back(temp);
             return;
         }
         
-        
-        
+        for (int i = 0; i < nums.size(); i++) {
+            if (find(track.begin(), track.end(), nums[i]) != track.end()) {
+                continue;
+            }
+            track.push_back(nums[i]);
+            backtrack(nums, track);
+            track.pop_back();
+        }
     }
     
     void test() {
+        vector<int> demo{1, 2, 3};
+        permute(demo);
         
     }
 };
