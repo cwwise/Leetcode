@@ -54,6 +54,8 @@
 		1F1303F42444167A005737FF /* Solution102.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution102.hpp; sourceTree = "<group>"; };
 		1F5A8F052442A89B00F92ACE /* Solution188.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution188.hpp; sourceTree = "<group>"; };
 		1F8C1E202445DC7D00557288 /* Solution445.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution445.hpp; sourceTree = "<group>"; };
+		1F8C1E232446BB4200557288 /* Solution542.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution542.hpp; sourceTree = "<group>"; };
+		1F8C1E282446E51C00557288 /* Solution1162.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution1162.hpp; sourceTree = "<group>"; };
 		1FA4F8FB2442004800141E44 /* Solution120.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution120.hpp; sourceTree = "<group>"; };
 		1FA4F8FE244204C000141E44 /* Solution152.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution152.hpp; sourceTree = "<group>"; };
 		1FA4F9012442100200141E44 /* Solution121.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution121.hpp; sourceTree = "<group>"; };
@@ -138,12 +140,14 @@
 				1F8C1E202445DC7D00557288 /* Solution445.hpp */,
 				1F1052FB243301820016A05F /* Solution494.hpp */,
 				1F1303DF24431AE7005737FF /* Solution516.hpp */,
+				1F8C1E232446BB4200557288 /* Solution542.hpp */,
 				1FC07C932430784F009D7D94 /* Solution674.hpp */,
 				1F1303E5244378B5005737FF /* Solution714.hpp */,
 				1F10531024362D0A0016A05F /* Solution866.hpp */,
 				1FC07C5B24288E30009D7D94 /* Solution867.hpp */,
 				1F1053072433700D0016A05F /* Solution912.hpp */,
 				1F1303F1244412CD005737FF /* Solution1143.hpp */,
+				1F8C1E282446E51C00557288 /* Solution1162.hpp */,
 				1F1303D02442C0AF005737FF /* Solution_1603.hpp */,
 				1F1303D62442D35C005737FF /* Solution_0811.hpp */,
 			);

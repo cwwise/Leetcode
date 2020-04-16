@@ -43,12 +43,14 @@
 #include "Solution445.hpp"
 #include "Solution494.hpp"
 #include "Solution516.hpp"
+#include "Solution542.hpp"
 #include "Solution674.hpp"
 #include "Solution714.hpp"
 #include "Solution866.hpp"
 #include "Solution867.hpp"
 #include "Solution912.hpp"
 #include "Solution1143.hpp"
+#include "Solution1162.hpp"
 #include "Solution_1603.hpp"
 #include "Solution_0811.hpp"
 #include "MyQueue.hpp"
@@ -60,7 +62,15 @@ int main(int argc, const char * argv[]) {
     
 //    string s = "12";
 //    cout << s.substr(0, 3);
+    set<int> demo;
+    map<string, string> direct;
+    direct.insert(make_pair("1", "2"));
     
-    Solution445().test();
+    auto it = direct.find("2");
+    if (it != direct.end()) {
+        cout << it->second << endl;
+    }
+    
+    Solution542().test();
     return 0;
 }

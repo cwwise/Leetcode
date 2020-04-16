@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8C1E262446DBB400557288 /* Solution542.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C1E252446DBB400557288 /* Solution542.swift */; };
 		1FC07C6A2428A32B009D7D94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C692428A32B009D7D94 /* main.swift */; };
 		1FC07C782428A3A9009D7D94 /* NodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C772428A3A9009D7D94 /* NodeHelper.swift */; };
 		1FC07C7A2428A3D2009D7D94 /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC07C792428A3D2009D7D94 /* Solution876.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F8C1E252446DBB400557288 /* Solution542.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution542.swift; sourceTree = "<group>"; };
 		1FC07C662428A32B009D7D94 /* Leetcode_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC07C692428A32B009D7D94 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FC07C772428A3A9009D7D94 /* NodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeHelper.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				1FC07C9524307BAB009D7D94 /* Solution674.swift */,
 				1FC07C792428A3D2009D7D94 /* Solution876.swift */,
 				1FC07C9E2430889B009D7D94 /* Solution121.swift */,
+				1F8C1E252446DBB400557288 /* Solution542.swift */,
 			);
 			path = Leetcode_Swift;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				1FC07C7A2428A3D2009D7D94 /* Solution876.swift in Sources */,
 				1FC07C9624307BAB009D7D94 /* Solution674.swift in Sources */,
+				1F8C1E262446DBB400557288 /* Solution542.swift in Sources */,
 				1FC07C7C2428AAA8009D7D94 /* Solution2.swift in Sources */,
 				1FC07C9D24308178009D7D94 /* Solution509.swift in Sources */,
 				1FC07C9B24307DBD009D7D94 /* Solution70.swift in Sources */,
