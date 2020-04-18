@@ -23,6 +23,9 @@
 #include "Solution70.hpp"
 #include "Solution72.hpp"
 #include "Solution102.hpp"
+#include "Solution106.hpp"
+#include "Solution112.hpp"
+#include "Solution117.hpp"
 #include "Solution120.hpp"
 #include "Solution121.hpp"
 #include "Solution122.hpp"
@@ -61,16 +64,9 @@ int main(int argc, const char * argv[]) {
 //    Solution674().test();
     
 //    string s = "12";
-//    cout << s.substr(0, 3);
-    set<int> demo;
-    map<string, string> direct;
-    direct.insert(make_pair("1", "2"));
-    
-    auto it = direct.find("2");
-    if (it != direct.end()) {
-        cout << it->second << endl;
-    }
-    
+//    cout << s.substr(0, 3);    
     Solution542().test();
     return 0;
 }
+
+
