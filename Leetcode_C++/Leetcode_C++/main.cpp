@@ -10,6 +10,7 @@
 #include "Leetcode_C.h"
 
 #include "Solution2.hpp"
+#include "Solution3.hpp"
 #include "Solution5.hpp"
 #include "Solution8.hpp"
 #include "Solution9.hpp"
@@ -22,6 +23,7 @@
 #include "Solution62.hpp"
 #include "Solution70.hpp"
 #include "Solution72.hpp"
+#include "Solution76.hpp"
 #include "Solution102.hpp"
 #include "Solution106.hpp"
 #include "Solution112.hpp"
@@ -37,6 +39,8 @@
 #include "Solution198.hpp"
 #include "Solution200.hpp"
 #include "Solution203.hpp"
+#include "Solution215.hpp"
+#include "Solution239.hpp"
 #include "Solution289.hpp"
 #include "Solution309.hpp"
 #include "Solution322.hpp"
@@ -54,6 +58,7 @@
 #include "Solution912.hpp"
 #include "Solution1143.hpp"
 #include "Solution1162.hpp"
+#include "Solution_61.hpp"
 #include "Solution_1603.hpp"
 #include "Solution_0811.hpp"
 #include "MyQueue.hpp"
@@ -62,11 +67,6 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    Solution2().test();
 //    Solution674().test();
-    
-//    string s = "12";
-//    cout << s.substr(0, 3);    
-    Solution542().test();
+    Solution_61().test();
     return 0;
 }
-
-
