@@ -10,6 +10,7 @@
 #define Solution215_hpp
 
 #include <stdio.h>
+#include "Leetcode_C.h"
 
 /*
  215. 数组中的第K个最大元素

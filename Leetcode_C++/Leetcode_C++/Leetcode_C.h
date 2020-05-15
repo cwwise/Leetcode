@@ -38,6 +38,13 @@ struct TreeNode {
 
 namespace NodeTestHelper {
 
+void printArrayList(vector<int> arr) {
+    for (int a: arr) {
+        cout << a << " ";
+    }
+    cout << endl;
+}
+
 void printNodeList(ListNode *head) {
     ListNode *p = head;
     while (p != nullptr && p->next != nullptr) {

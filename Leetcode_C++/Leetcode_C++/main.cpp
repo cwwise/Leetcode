@@ -14,18 +14,23 @@
 #include "Solution5.hpp"
 #include "Solution8.hpp"
 #include "Solution9.hpp"
+#include "Solution15.hpp"
 #include "Solution17.hpp"
+#include "Solution18.hpp"
 #include "Solution21.hpp"
 #include "Solution24.hpp"
 #include "Solution46.hpp"
 #include "Solution51.hpp"
+#include "Solution54.hpp"
 #include "Solution61.hpp"
 #include "Solution62.hpp"
 #include "Solution70.hpp"
 #include "Solution72.hpp"
 #include "Solution76.hpp"
+#include "Solution78.hpp"
 #include "Solution102.hpp"
 #include "Solution106.hpp"
+#include "Solution111.hpp"
 #include "Solution112.hpp"
 #include "Solution117.hpp"
 #include "Solution120.hpp"
@@ -40,6 +45,8 @@
 #include "Solution200.hpp"
 #include "Solution203.hpp"
 #include "Solution215.hpp"
+#include "Solution234.hpp"
+#include "Solution236.hpp"
 #include "Solution239.hpp"
 #include "Solution289.hpp"
 #include "Solution309.hpp"
@@ -67,6 +74,6 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    Solution2().test();
 //    Solution674().test();
-    Solution_61().test();
+    Solution18().test();
     return 0;
 }

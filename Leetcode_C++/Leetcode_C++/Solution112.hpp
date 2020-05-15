@@ -16,6 +16,7 @@ class Solution112 {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
         return dfs(root, 0, sum);
+        stack<int> s;
     }
     
     //
