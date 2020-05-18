@@ -18,7 +18,6 @@ public:
         int n = (int)nums.size();
         // 判断
         if (n < 4) return res;
-        find(nums.begin(), nums.end(), <#const _Tp &__value_#>)
         // 排序
         sort(nums.begin(), nums.end());
         // i j (l, r)
