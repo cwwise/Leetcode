@@ -40,6 +40,7 @@
 #include "Solution123.hpp"
 #include "Solution141.hpp"
 #include "Solution142.hpp"
+#include "Solution148.hpp"
 #include "Solution152.hpp"
 #include "Solution164.hpp"
 #include "Solution188.hpp"

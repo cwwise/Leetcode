@@ -32,6 +32,7 @@ public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         int inLen = inorder.size();
         int postLen = postorder.size();
+        
         return build(inorder, 0, inLen-1, postorder, 0, postLen-1);
     }
     
