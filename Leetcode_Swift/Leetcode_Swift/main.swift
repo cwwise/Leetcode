@@ -11,6 +11,9 @@ import Foundation
 Solution2().test()
 Solution121().test()
 
+var result = Set<Int>()
+result.subtract([13])
+result.intersection([123])
 
 // Definition for a binary tree node.
  public class TreeNode {

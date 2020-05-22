@@ -20,7 +20,9 @@
 #include "Solution21.hpp"
 #include "Solution24.hpp"
 #include "Solution25.hpp"
+#include "Solution28.hpp"
 #include "Solution46.hpp"
+#include "Solution47.hpp"
 #include "Solution51.hpp"
 #include "Solution54.hpp"
 #include "Solution61.hpp"
@@ -38,9 +40,11 @@
 #include "Solution121.hpp"
 #include "Solution122.hpp"
 #include "Solution123.hpp"
+#include "Solution131.hpp"
 #include "Solution141.hpp"
 #include "Solution142.hpp"
 #include "Solution148.hpp"
+#include "Solution151.hpp"
 #include "Solution152.hpp"
 #include "Solution164.hpp"
 #include "Solution188.hpp"
@@ -69,15 +73,19 @@
 #include "Solution912.hpp"
 #include "Solution1143.hpp"
 #include "Solution1162.hpp"
+#include "Solution_12.hpp"
 #include "Solution_61.hpp"
 #include "Solution_1603.hpp"
 #include "Solution_0811.hpp"
+#include "Solution_0808.hpp"
 #include "MyQueue.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    Solution2().test();
 //    Solution674().test();
-    Solution18().test();
+    string test = "";
+    test.pop_back();
+    Solution28().test();
     return 0;
 }

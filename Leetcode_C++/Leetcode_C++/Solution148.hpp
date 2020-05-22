@@ -27,6 +27,7 @@ public:
         // 条件判断
         if (!head || !head->next) return head;
         
+        
         ListNode *slow = head;
         ListNode *fast = head->next;
         

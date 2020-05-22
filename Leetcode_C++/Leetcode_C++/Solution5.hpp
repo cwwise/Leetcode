@@ -33,13 +33,11 @@ public:
             return s;
         }
         vector<vector<bool>> dp(len, vector<bool>(len, false));
-        
         int maxLen = 1;
         int start = 0;
         
         for (int j = 1; j < len; j ++) {
             for (int i = 0; i < j; i ++) {
-                //
                 if (s[i] == s[j]) {
                     if (j - i < 3) {
                         dp[i][j] = true;
@@ -60,6 +58,36 @@ public:
             }
         }
         return s.substr(start, maxLen);
+    }
+    
+    string longestPalindrome2(string s) {
+        int n = s.size();
+        if (n <= 1) return s;
+        int start = 0;
+        int max_len = 0;
+        
+        // 中心扩散法
+        for (int i = 0; i < n; i ++) {
+            int len1 = isPalindromic(s, i, i);
+            int len2 = isPalindromic(s, i, i+1);
+            int len = max(len1, len2);
+            
+            if (len > max_len) {
+                start = i - (len-1)/2;
+                max_len = len;
+            }
+        }
+        return s.substr(start, max_len);
+    }
+    
+    int isPalindromic(string s, int left, int right) {
+        int l = left;
+        int r = right;
+        while (l >= 0 && r < s.size() && s[l] == s[r]) {
+            l --;
+            r ++;
+        }
+        return r - l - 1;
     }
     
     string longestPalindrome1(string s) {
@@ -96,7 +124,7 @@ public:
     }
     
     void test() {
-        cout << longestPalindrome("acbbfcba") << endl;
+        cout << longestPalindrome2("babad") << endl;
     }
 };
 

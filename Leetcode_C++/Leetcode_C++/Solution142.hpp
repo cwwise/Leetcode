@@ -18,13 +18,17 @@ public:
         // 如果没环
         ListNode *slow = head;
         ListNode *fast = head;
-        while (fast != NULL && fast->next != NULL) {
+        
+        while (true) {
+            if (!fast || !fast->next) return NULL;
             fast = fast->next->next;
             slow = slow->next;
+            
             if (fast == slow) {
                 break;
             }
         }
+                
         // 这个时候找到环节点。
         fast = head;
         while (slow != fast) {
