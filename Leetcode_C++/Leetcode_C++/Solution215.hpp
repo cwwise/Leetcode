@@ -47,6 +47,45 @@ public:
         return queue.top();
     }
     
+    int findKthLargest2(vector<int>& nums, int k) {
+        int n = nums.size();
+        return quickselect(nums, 0, n - 1, n - k);
+    }
+    
+    int partition(vector<int>& nums, int left, int right) {
+        // 标定点left
+        
+        int pivot = nums[left];
+        int i = left + 1;
+        int j = right;
+        while (true) {
+            while (i <= j && nums[i] < pivot) i++;
+            while (i <= j && nums[j] > pivot) j++;
+            if (i > j) break;
+            swap(nums[i++], nums[j--]);
+        }
+        swap(nums[left], nums[j]);
+        return j;
+    }
+    
+    int quickselect(vector<int>& nums, int left, int right, int k_smallest) {
+        // 只有一个数字
+        if (left >= right) {
+            return nums[left];
+        }
+        
+        int pivot_index = partition(nums, left, right);
+        if (pivot_index == k_smallest) {
+            return nums[pivot_index];
+        }
+        else if (pivot_index > k_smallest) {
+            return quickselect(nums, left, pivot_index - 1, k_smallest);
+        } else {
+            return quickselect(nums, pivot_index - 1, right, k_smallest);
+        }
+    }
+    
+    
     void test() {
         vector<int> demo{1, 2, 3, 4, 5};
         cout << findKthLargest(demo, 5) << endl;

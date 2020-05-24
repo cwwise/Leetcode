@@ -60,6 +60,7 @@ public:
     }
     
     int strStr(string haystack, string needle) {
+        
         // 模式串
         int s_len = (int)haystack.length();
         // 目标串
@@ -86,7 +87,6 @@ public:
                         index += p_len + 1;
                     }
                 }
-                
             }
         }
         return -1;

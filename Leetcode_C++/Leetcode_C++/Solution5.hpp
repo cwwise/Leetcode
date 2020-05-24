@@ -35,7 +35,6 @@ public:
         vector<vector<bool>> dp(len, vector<bool>(len, false));
         int maxLen = 1;
         int start = 0;
-        
         for (int j = 1; j < len; j ++) {
             for (int i = 0; i < j; i ++) {
                 if (s[i] == s[j]) {

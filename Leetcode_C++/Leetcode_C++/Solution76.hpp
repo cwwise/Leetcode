@@ -22,7 +22,6 @@ public:
         
         unordered_map<char, int> windows;
         unordered_map<char, int> needs;
-        
         for (char c: t) needs[c] ++;
         // 记录符合字符的要求
         int match = 0;

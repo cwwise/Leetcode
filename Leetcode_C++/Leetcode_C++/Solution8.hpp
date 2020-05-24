@@ -30,7 +30,7 @@
 
 class Solution8 {
 public:
-    int myAtoi(string str) {
+    int myAtoi1(string str) {
         long sum = 0;
         int flag = 1;
         // 先跳过空格
@@ -60,10 +60,48 @@ public:
         return int(sum*flag);
     }
     
+    int myAtoi(string str) {
+        int length = str.length();
+        if (length == 0) return 0;
+        
+        int res = 0;
+        // 符号位
+        int flag = true;
+        // 到第一个非空格
+        int i = 0;
+        while (i < length && str[i] == ' ') {
+            i ++;
+        }
+        
+        // 判断第一位是否为符号位
+        if (str[i] == '+') {
+            i ++;
+        } else if (str[i] == '-') {
+            flag = false;
+            i ++;
+        }
+        // 在范围并且指为数字
+        while (i < length) {
+            char c = str[i];
+            if (c >= '0' && c <= '9') {
+                int a = c - '0';
+                if (res > (INT_MAX - a) / 10) {
+                    return flag ? INT_MAX : INT_MIN;
+                } else {
+                    res = res*10 + a;
+                }
+            } else {
+                break;
+            }
+            i ++;
+        }
+        return flag ? res : -res;
+    }
+    
     // "-91283472332"
     void test() {
         cout << INT_MAX << endl;
-
+        
         cout << myAtoi("   -11aa") << endl;
         cout << myAtoi("a") << endl;
         cout << myAtoi("---") << endl;

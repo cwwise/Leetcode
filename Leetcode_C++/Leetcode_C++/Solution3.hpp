@@ -16,11 +16,9 @@ class Solution3 {
 public:
     int lengthOfLongestSubstring1(string s) {
         int n = (int)s.length();
-        
         // 哈希集合，记录每个字符是否出现过
         unordered_set<char> occ;
         int rk = -1, ans = 0;
-        
         for (int i = 0; i < n; i ++) {
             if (i != 0) {
                 occ.erase(s[i-1]);

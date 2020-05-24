@@ -15,26 +15,45 @@
 class Solution25 {
 public:
     
-    pair<ListNode *, ListNode *> reverse(ListNode* head, ListNode *tail) {
-        ListNode *cur = head;
-        ListNode *pre = NULL;
-        while (cur != NULL) {
-            ListNode *next = cur->next;
-            cur->next = pre;
-            pre = cur;
-            cur = next;
+    pair<ListNode *, ListNode *> reverseNode(ListNode* head, ListNode *tail) {
+        ListNode *prev = tail->next;
+        ListNode *p = head;
+        
+        while (prev != tail) {
+            ListNode *next = p->next;
+            p->next = prev;
+            prev = p;
+            p = next;
         }
-        return {head, head};
+        return {tail, head};
     }
     
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode *newHead = new ListNode(0);
+        newHead->next = head;
         
+        ListNode *cur = head;
+        ListNode *pre = newHead;
         
-        
-        
-        
-        return newHead;
+        while (cur) {
+            
+            ListNode* nextLast = pre;
+            // 找到对应节点
+            for (int i = 0; i < k; i ++) {
+                nextLast = nextLast->next;
+                if (!nextLast) {
+                    return newHead->next;
+                }
+            }
+            ListNode* nex = nextLast->next;
+            auto [start, end] = reverseNode(cur, nextLast);
+            pre->next = start;
+            end->next = nex;
+            
+            pre = end;
+            cur = nex;
+        }
+        return newHead->next;
     }
     
     void test() {
