@@ -61,6 +61,7 @@ public:
     }
     
     int myAtoi(string str) {
+        
         int length = str.length();
         if (length == 0) return 0;
         

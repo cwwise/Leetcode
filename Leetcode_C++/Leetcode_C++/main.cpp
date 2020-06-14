@@ -53,6 +53,7 @@
 #include "Solution198.hpp"
 #include "Solution200.hpp"
 #include "Solution203.hpp"
+#include "Solution208.hpp"
 #include "Solution210.hpp"
 #include "Solution215.hpp"
 #include "Solution234.hpp"
@@ -65,14 +66,17 @@
 #include "Solution337.hpp"
 #include "Solution355.hpp"
 #include "Solution445.hpp"
+#include "Solution460.hpp"
 #include "Solution494.hpp"
 #include "Solution516.hpp"
 #include "Solution542.hpp"
 #include "Solution674.hpp"
 #include "Solution714.hpp"
 #include "Solution752.hpp"
+#include "Solution820.hpp"
 #include "Solution866.hpp"
 #include "Solution867.hpp"
+#include "Solution889.hpp"
 #include "Solution912.hpp"
 #include "Solution1143.hpp"
 #include "Solution1162.hpp"
@@ -84,9 +88,7 @@
 #include "MyQueue.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-//    Solution2().test();
-//    Solution674().test();
-    Solution67().test();
+    Solution889().test();
     return 0;
 }
+
