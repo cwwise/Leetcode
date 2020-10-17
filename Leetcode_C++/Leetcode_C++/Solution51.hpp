@@ -25,42 +25,73 @@
 
 class Solution51 {
 public:
-    vector<vector<string>> res;
-    vector<vector<string>> solveNQueens(int n) {
-        vector<string> board(n, string(n, '.'));
-        backtrack(board, 0);
-        return res;
-    }
-        
-    void backtrack(vector<string> &borad, int row) {
-        if (row == borad.size()) {
-            res.push_back(borad);
-        }
-        
-    }
+    // 列
+    unordered_set<int> column;
+    // 副对角线
+    unordered_set<int> sub;
+    // 主对角线
+    unordered_set<int> main;
+    // 结果
+    vector<vector<string>> result;
     
-    //
-    bool isValid(vector<string> &borad, int row, int col) {
-        int n = (int)borad.size();
-        // 检查列
-        for (int i = 0; i < n; i++) {
-            if (borad[i][col] == 'Q') {
-                return false;
-            }
+    vector<vector<string>> solveNQueens(int n) {
+        if (n == 0) {
+            return result;
         }
-        
-        //
-        for (int i = row - 1, j = col + 1; i >= 0 && j < n ; i --, j++) {
-            if (borad[i][j] == 'Q') {
-                return false;
-            }
+        vector<int> path;
+        dfs(0, n, path);
+        return result;
+    }
+
+    void dfs(int row, int n, vector<int> & path) {
+        if (row == n) {
+            // 转化
+            vector<string> item = convert2board(n, path);
+            result.push_back(item);
+            return;
         }
-        
-        return true;
+
+        // 从每列放
+        for (int i = 0; i < n; i ++) {
+            // 主对角线 row+column 为固定值
+            // 副对角线 row-column 为固定值
+            if (column.count(i) || main.count(row+i) || sub.count(row-i)) {
+                continue;
+            }
+
+            path.push_back(i);
+            column.insert(i);
+            main.insert(row+i);
+            sub.insert(row-i);
+
+            dfs(row+1, n, path);
+
+            column.erase(i);
+            main.erase(row+i);
+            sub.erase(row-i);
+            path.pop_back();
+        }
+
+    }
+
+    vector<string> convert2board(int n, vector<int> path) {
+        vector<string> res;
+        for (int i = 0; i < n; i ++) {
+            string str(n, '.');
+            str[path[i]] = 'Q';
+            res.push_back(str);
+        }
+        return res;
     }
     
     void test() {
-        
+        vector<vector<string>> result = solveNQueens(4);
+        for (vector<string> item: result) {
+            for (string str: item) {
+                cout << str << endl;
+            }
+            cout << endl;
+        }
     }
 };
 

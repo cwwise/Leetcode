@@ -88,7 +88,7 @@
 #include "MyQueue.hpp"
 
 int main(int argc, const char * argv[]) {
-    Solution889().test();
+    Solution51().test();
     return 0;
 }
 
